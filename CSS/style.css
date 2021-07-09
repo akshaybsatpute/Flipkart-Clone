@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: #2874f0;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding: 0 24px;
+    height: 31px;
+
+}
+
+.container {
+    min-height: calc(100vh - 58px - 48px);
+    background-color: #f1f3f6;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex;
+    padding: 0 21px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 21px;
+}
+
+nav ul li button {
+    width: 110px;
+    height: 33px;
+    font-size: inherit;
+    background-color: white;
+    color: #2874f0;
+    font-family: 'Lato', sans-serif;
+    border: none;
+
+}
+
+nav ul li a {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    /*    font-size: 20px;*/
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.card-item input {
+    height: 65px;
+
+
+}
+
+.mcard01 {
+    display: flex;
+    height: 340px;
+    width: 100%;
+    margin-top: 35px;
+
+}
+
+.mcard012 {
+    display: flex;
+    /*    background-color: red;*/
+    height: 340px;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.mcard12 {
+    /*    display: inline-flex;*/
+    /*    background-color: aqua;*/
+    /*    height: 245px;*/
+    /*    display: flex;*/
+    /*    width: 100%;*/
+    padding: 5px 3px;
+    width: 100%;
+
+
+}
+
+.btn22 {
+    padding: 12px 33px;
+    margin-top: 3px;
+    margin-left: 944px;
+    color: white;
+    background-color: #2874f0;
+    font-weight: 400;
+    border: none;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+.mcard1 {
+    /*    display: inline-flex;*/
+    /*    background-color: aqua;*/
+    /*    height: 245px;*/
+    /*    display: flex;*/
+    /*    width: 100%;*/
+    padding: 5px 5px;
+    width: 1128px;
+
+
+}
+
+.mcard1-upper div h5 {
+    color: grey;
+    padding: 3px 0;
+}
+
+.btn2 {
+    padding: 12px 33px;
+    margin-top: 3px;
+    margin-left: 728px;
+    color: white;
+    background-color: #2874f0;
+    font-weight: 400;
+    border: none;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.mcard1-upper {
+    /*    width: 100%;*/
+    margin: 0 6px;
+    background-color: white;
+    display: flex;
+    height: 50px;
+    padding: 13px 33px;
+    font-family: 'Lato', sans-serif;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.55);
+
+}
+
+.mcard2 input {
+    height: 324px;
+
+}
+
+.carousel {
+    max-width: 1254px;
+    margin: auto;
+    /*    padding: 0 30px;*/
+}
+
+.carousel .card {
+    color: #fff;
+    text-align: center;
+    width: 340px;
+
+    line-height: 232px;
+    font-size: 90px;
+    font-weight: 600;
+    /*    border-radius: 10px;*/
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.x {
+    height: 40px;
+}
+
+lines {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.card1a {
+    padding: 0 10px;
+}
+
+.carousel .card-1 {
+    background: red;
+}
+
+.carousel .card-2 {
+    background: #0072bc;
+}
+
+.carousel .card-3 {
+    background: #39b54a;
+}
+
+.carousel .card-4 {
+    background: #f26522;
+}
+
+.carousel .card-5 {
+    background: #630460;
+}
+
+.mid-card {
+    /*    background-color: red;*/
+    display: flex;
+    height: 240px;
+    width: 100%;
+    margin-top: 8px;
+    justify-content: center;
+
+}
+
+.mid-card div input {
+    height: 240px;
+}
+
+.wrapper {
+    /*    width: 100%;*/
+    margin: 0 6px;
+    background-color: white;
+    display: flex;
+    height: 228px;
+    padding: 13px 33px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.img {
+    position: absolute;
+    right: 554px;
+    height: 24px;
+}
+
+.input {
+
+    border-radius: 5px;
+    width: 490px;
+    height: 33px;
+    padding: 0 11px;
+}
+
+.card-item {
+
+    text-align: center;
+    padding: 0px 38px;
+}
+
+.upper-card {
+
+    height: 107px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /*    font-family: 'Lato', sans-serif;*/
+
+}
+
+.f-container {
+    display: flex;
+    padding: 11px 8px;
+}
+
+ul li i {
+    padding-right: 8px;
+}
+
+ul li .fa {
+    padding-left: 8px;
+}
+
+.box {
+    flex-basis: 30%;
+    padding: 20px 40px;
+}
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin-top: 20px;
+}
+
+.box .content p {
+    text-align: justify;
+}
+
+.left .content .social {
+    margin-top: 20px;
+}
+
+.left .content .social a {
+    padding: 0 2px;
+}
+
+.left .content .social a i {
+    height: 40px;
+    width: 40px;
+    color: white;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.left .content .social a i:hover {
+    background: #2874f0;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    bottom: 0px;
+    /*    width: 100%;*/
+    font-family: 'Lato', sans-serif;
+}
+
+
+.center .content .text,
+.right .content .text {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.center .content .fa {
+    height: 40px;
+    width: 40px;
+
+    color: white;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+    /*    transition: 3s;*/
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 47px;
+    background-color: rgba(0, 0, 0, 0.75);
+    /*    display: flex;*/
+}
+
+.center .content .fa:hover {
+    background: #2874f0;
+}
+
+.right form .msg {
+    margin-top: 10px;
+}
+
+.right form input,
+.right form textarea {
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    background: #151515;
+    padding-left: 5px;
+    margin: 10px 0px;
+    border: 1px solid #222222;
+
+}
+
+
+
+.right form textarea:focus,
+.right form input:focus {
+    outline-color: #3498db;
+}
+
+.right form .btn {
+    margin-top: 10px;
+}
+
+.email input {
+    height: 30px;
+}
+
+.right form .btn button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    background: #f12020;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.right form .btn button:hover {
+    background-color: #3498db;
+}
